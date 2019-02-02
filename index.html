@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OceanJ</title>
+        <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Welcome to OceanJ, we offer fashion and quality clothing at the best price in a sustainable way.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="header-global"></header>
+        <div id="wrapper">
+            <nav>
+            </nav>
+        
+            <div class="subNav">
+                <div class="subNavItem">
+                    <a href="#chxGifts"><h5>Christmas Gifts</h5></a>
+                </div>
+                <div class="subNavItem">
+                    <a href="#chxGifts"><h5>Party Season Glamour</h5></a>
+                </div>
+                <div class="subNavItem">
+                    <a href="#chxGifts"><h5>10% OFF</h5></a>
+                </div>
+               
+            </div>
+            <div class="layers">
+                <div class="firstLayer">
+                    <div class="product-banner">
+                        <div class="image">
+                            <img src="./res/ladies-accessories.jpg">
+                            <div class="link">
+                                <a href="./index.html"><h5>ACCESSORIES</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-banner">
+                            <img src="./res/personal-shopping.jpg">
+                            <a href="./index.html"><h5>PERSONAL SHOPPING</h5></a>
+                        </div>
+                </div><!--first layer with two pro-->
+            </div> <!----layers -->
+        </div><!-- </div> wrapper -->
+        <footer></footer>
+        <script>
+            $(document).ready(function(){
+                $(".header-global").load("header.html");
+                $("nav").load("navBar.html");
+                $("footer").load("footer.html");
+            });
+        </script>
+    </body>
+</html>
